@@ -16,7 +16,8 @@ FICHIER_URLS = os.path.join(DOSSIER_CHEMIN, "Url_Liste_Modifiable_2.txt")
 FICHIER_LISTES = os.path.join(DOSSIER_CHEMIN, "Url_Liste_Modifiable.txt")
 
 # URL de votre dépôt GitHub (à remplacer par la vôtre une fois créée)
-GITHUB_REPO_URL = "https://github.com/" 
+#GITHUB_REPO_URL = "https://github.com/" 
+GITHUB_REPO_URL = "https://github.com/Fabrice-SystemEng/AppClipboardLocal"
 
 # ================================================================
 # =================    Fonctions Logique    ======================
