@@ -4,9 +4,9 @@ import os
 # ================================================================
 # ===================     Configuration     ======================
 
-st.set_page_config(page_title="Nexus Web Hub", layout="wide")
+st.set_page_config(page_title="WEB NAVIGATION HUB", layout="wide")
 
-# Dossier de données (Local ou sur GitHub)
+# Dossier de données
 DOSSIER_CHEMIN = "data" 
 if not os.path.exists(DOSSIER_CHEMIN):
     os.makedirs(DOSSIER_CHEMIN)
@@ -15,9 +15,8 @@ if not os.path.exists(DOSSIER_CHEMIN):
 FICHIER_URLS = os.path.join(DOSSIER_CHEMIN, "Url_Liste_Modifiable_2.txt")
 FICHIER_LISTES = os.path.join(DOSSIER_CHEMIN, "Url_Liste_Modifiable.txt")
 
-# URL de votre dépôt GitHub (à remplacer par la vôtre une fois créée)
-#GITHUB_REPO_URL = "https://github.com/" 
-GITHUB_REPO_URL = "https://github.com/Fabrice-SystemEng/WEB-NAVIGATION-HUB""
+# URL de votre dépôt GitHub (CORRIGÉE ICI)
+GITHUB_REPO_URL = "https://github.com/Fabrice-SystemEng/WEB-NAVIGATION-HUB"
 
 # ================================================================
 # =================    Fonctions Logique    ======================
@@ -47,7 +46,6 @@ st.markdown(f"""
     .main {{ background-color: #0F111A; }}
     h1 {{ text-align: center; color: #51A8FF; font-family: 'Segoe UI'; padding-bottom: 10px; }}
     
-    /* Style pour les boutons d'onglets */
     .stTabs [data-baseweb="tab-list"] {{ gap: 8px; }}
     .stTabs [data-baseweb="tab"] {{
         background-color: #1A1D2E;
@@ -61,7 +59,7 @@ st.markdown(f"""
 
 st.markdown("<h1>WEB NAVIGATION HUB</h1>", unsafe_allow_html=True)
 
-# --- Onglets (URLS DIRECTES par défaut) ---
+# Onglets (URLS DIRECTES par défaut)
 tab1, tab2 = st.tabs(["🌐 URLS DIRECTES", "📁 LISTES TXT"])
 
 def afficher_boutons(fichier):
@@ -113,7 +111,6 @@ with col_f1:
         st.rerun()
 
 with col_f2:
-    # Bouton pour ouvrir le répertoire source (GitHub sur le web)
     st.markdown(f"""
         <a href="{GITHUB_REPO_URL}" target="_blank" style="text-decoration: none;">
             <div style="
