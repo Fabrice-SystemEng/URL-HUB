@@ -3,23 +3,23 @@ import os
 
 # ================================================================
 # ===========  BLOC DE FORCE POUR LE NOM ET L'ICÔNE  =============
-st.set_page_config(page_title="WEB HUB", page_icon="💠", layout="wide")
+st.set_page_config(page_title="URL-HUB", page_icon="💠", layout="wide")
 
 # Ce code HTML force le nom pour les mobiles Android/Samsung
 st.markdown(f"""
     <head>
         <title>URL HUB</title>
-        <meta name="apple-mobile-web-app-title" content="WEB HUB">
-        <meta name="application-name" content="WEB HUB">
+        <meta name="apple-mobile-web-app-title" content="URL-HUB">
+        <meta name="application-name" content="URL-HUB">
     </head>
     """, unsafe_allow_html=True)
 
 # ================================================================
 # ===================     Configuration     ======================
 
-# config de base : st.set_page_config(page_title="WEB HUB", layout="wide")
+# config de base : st.set_page_config(page_title="URL-HUB", layout="wide")
 st.set_page_config(
-    page_title="WEB HUB", 
+    page_title="URL-HUB", 
     page_icon="🚀",  # Exemples d'options possibles 🌐, 🛰️, 🧭 ou 📱
     layout="wide"
 )
@@ -34,7 +34,7 @@ FICHIER_URLS = os.path.join(DOSSIER_CHEMIN, "Url_Liste_Modifiable_2.txt")
 FICHIER_LISTES = os.path.join(DOSSIER_CHEMIN, "Url_Liste_Modifiable.txt")
 
 # URL dépôt GitHub
-GITHUB_REPO_URL = "https://github.com/Fabrice-SystemEng/WEB-NAVIGATION-HUB"
+GITHUB_REPO_URL = "https://github.com/Fabrice-SystemEng/URL-HUB"
 
 # ================================================================
 # =================    Fonctions Logique    ======================
