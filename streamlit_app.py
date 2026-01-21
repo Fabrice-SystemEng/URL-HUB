@@ -75,7 +75,7 @@ st.markdown(f"""
     </style>
     """, unsafe_allow_html=True)
 
-st.markdown("<h1>WEB NAVIGATION HUB</h1>", unsafe_allow_html=True)
+st.markdown("<h1>URL HUB</h1>", unsafe_allow_html=True)
 
 # Onglets (URLS DIRECTES par défaut)
 tab1, tab2 = st.tabs(["🌐 URLS DIRECTES", "📁 LISTES TXT"])
