@@ -29,8 +29,11 @@ DOSSIER_CHEMIN = "data"
 if not os.path.exists(DOSSIER_CHEMIN):
     os.makedirs(DOSSIER_CHEMIN)
 
+# Fichiers sources
 FICHIER_URLS = os.path.join(DOSSIER_CHEMIN, "Url_Liste_Modifiable_2.txt")
-FICHIER_LISTES = os.path.join(DOSSICH_CHEMIN, "Url_Liste_Modifiable.txt")
+FICHIER_LISTES = os.path.join(DOSSIER_CHEMIN, "Url_Liste_Modifiable.txt")
+
+# URL dépôt GitHub
 GITHUB_REPO_URL = "https://github.com/Fabrice-SystemEng/WEB-NAVIGATION-HUB"
 
 # ================================================================
