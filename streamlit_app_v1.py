@@ -1,6 +1,7 @@
 import streamlit as st
 import os
 
+
 # ================================================================
 # ===========  BLOC DE FORCE POUR LE NOM ET L'ICÔNE  =============
 st.set_page_config(page_title="NEXUS HUB", page_icon="💠", layout="wide")
