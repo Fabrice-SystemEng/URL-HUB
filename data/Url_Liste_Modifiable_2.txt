@@ -5,7 +5,7 @@ Feedly,https://feedly.com/,#51A8FF
 Glassdoor,https://www.glassdoor.fr/Job/index.htm
 Airtable,https://airtable.com/
 Make,https://www.make.com/en
-https://www.kaggle.com
+Kaggle,https://www.kaggle.com
 Virus total, https://www.virustotal.com/gui/home/upload,#E67E22
 Dns check,https://dnschecker.org/,#E67E22
 GitHub Perso,https://github.com/Fabrice-SystemEng/
